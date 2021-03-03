@@ -1,0 +1,92 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww19120\viewh14500\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\b\fs24 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc\partightenfactor0
+
+\fs36 \cf0 \ul \ulc0 Exploratory testing - Myprotein.ro ( \'93Cont\'94 )
+\fs24 \ulnone \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+\
+When a user tries to register using different methods, the results are as follows:\
+\
+\'93Cont\'94 \'97> \'93Incepe aici\'94  button
+\b0 \
+\
+
+\b 1. \'93Sign in with Facebook\'94 
+\b0 \
+\
+	The user can register using Facebook, then he/she will be automatically redirected to Myprotein.ro main page. The user must be logged in to Facebook before signing up.\
+\
+
+\b 2. \'93Sign in with Google\'94
+\b0 \
+\
+	The user can register using the Google account then he/she will be redirected to Myprotein.ro main page. The user must be logged in to a Google account before signing up.\
+\
+
+\b 3. \'93Create an email account:\'94
+\b0 \
+\
+	The user can create an account using an email account that is not already in use, then he/she will be redirected to Myprotein.ro main page.\
+\
+
+\b 4.  \'93Create an email account:\'94 using an email address that is already in use for an existing Myprotein.ro account.\
+
+\b0 \
+	In this scenario the user is being told that the email is already in use, so he/she needs to create an account using a different email address.\
+\
+
+\b 5. \'93Create an email account:\'94 using an invalid format for the email address.\
+\
+
+\b0 	The user will receive a pop-up message, saying that there is a problem with the email address. It needs to be checked and then try again.\
+\
+
+\b 6. \'93Create an email account:\'94 using only one letter in the \'93Nume si Prenume\'94 field.\
+
+\b0 \
+	The account is created if the user enters only one letter in the \'93Nume si Presume\'94, the account will take the name of the letter.\
+\
+
+\b 7. \'93Create an email account:\'94 using a specific character.\
+
+\b0 \
+	The account is validated and will take the name of the character.\
+\
+
+\b 8. The password length must be between 6 and 52 characters long.\
+
+\b0 \
+	If the password exceeds the above interval, the user will get an error saying that \'93Parola trebuie sa contina cel putin 6 caractere\'94 or \'93Your password can be a maximum of 52 characters\'94.\
+\
+
+\b 9. \'93Adresa de email\'94 and \'93Parola\'94 auto-fills when a user tries to login with the wrong data.\
+
+\b0 \
+	When multiple users access the website using the same computer and one of them enters the wrong data in \'93Adresa de email\'94 or \'93Parola\'94 the areas autofill with the data from the previous user, even when the cookies are cleaned from the browser. The bug id is 0031535 and is logged in Mantis / AlarmMe-National06.\
+\
+
+\b 10. Spacebar accepted in the password field.\
+
+\b0 \
+	If a user enters the spacebar in the password field, it is considered to be a valid character.\
+\
+
+\b 11. Special characters can be used for the password.
+\b0 \
+\
+	If the user tries to set the password using special characters ( \'93, @ ; ) they are considered valid data.\
+\
+12. 
+\b \'93Ai uitat parola\'94 ?
+\b0 \
+	\
+	The user has the option to reset the password by clicking on \'93Ai uitat parola?\'94. An email with the steps is sent to the registered email address. The password doesn\'92t have to be a new one, the old password is accepted. \
+\
+}
