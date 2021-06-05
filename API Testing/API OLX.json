@@ -1,0 +1,166 @@
+{
+	"id": "04482c47-1a64-4039-a5b9-936e49df435a",
+	"name": "APITesting",
+	"timestamp": "2021-03-29T17:50:05.952Z",
+	"collection_id": "bf7b132f-a4ab-4992-b079-0d500e07bb9c",
+	"folder_id": "e2367c2c-8232-4837-abc1-a849cf33ef4f",
+	"environment_id": "0",
+	"totalPass": 8,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "e36445c4-4625-4c41-99af-2da288c2d532",
+			"name": "Check search bar is visible",
+			"url": "https://www.olx.ro/",
+			"time": 228,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 600ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 600ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				228
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				}
+			]
+		},
+		{
+			"id": "ed03a82d-db0d-482f-b168-b3b06e0fedcb",
+			"name": "Search button",
+			"url": "https://www.olx.ro/oferte/",
+			"time": 242,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 600ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 600ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				242
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				}
+			]
+		},
+		{
+			"id": "52a2f269-c080-42f6-8fd8-cdee5b211b11",
+			"name": "Product search by name",
+			"url": "https://www.olx.ro/oferte/q-masina/",
+			"time": 438,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 600ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 600ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				438
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				}
+			]
+		},
+		{
+			"id": "7bd23a85-26ad-4b8c-ba20-a60408cee5de",
+			"name": "Location Boundry",
+			"url": "https://www.olx.ro/cluj-napoca/",
+			"time": 266,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 600ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 600ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				266
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1174,
+	"collection": {
+		"requests": [
+			{
+				"id": "e36445c4-4625-4c41-99af-2da288c2d532",
+				"method": "GET"
+			},
+			{
+				"id": "ed03a82d-db0d-482f-b168-b3b06e0fedcb",
+				"method": "GET"
+			},
+			{
+				"id": "52a2f269-c080-42f6-8fd8-cdee5b211b11",
+				"method": "GET"
+			},
+			{
+				"id": "7bd23a85-26ad-4b8c-ba20-a60408cee5de",
+				"method": "GET"
+			}
+		]
+	}
+}

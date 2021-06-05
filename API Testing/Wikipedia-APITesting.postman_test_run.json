@@ -1,0 +1,104 @@
+{
+	"id": "1d90891d-5077-4654-a638-646d4848e65b",
+	"name": "Wikipedia-APITesting",
+	"timestamp": "2021-03-28T17:07:00.890Z",
+	"collection_id": "bf7b132f-a4ab-4992-b079-0d500e07bb9c",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 6,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "f9cba1fe-1171-4c3b-8822-c01ff7a11672",
+			"name": "Wiki Main Page",
+			"url": "https://en.wikipedia.org/wiki/Main_Page",
+			"time": 515,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 600ms": true,
+				"Body is correct": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 600ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				515
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true,
+					"Body is correct": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "7f984cf4-bb24-4da6-820f-0dadca2951fc",
+			"name": "Login Test",
+			"url": "https://en.wikipedia.org/w/index.php?title=Special:UserLogin&returnto=Main+Page",
+			"time": 445,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 600ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 600ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				445
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 960,
+	"collection": {
+		"requests": [
+			{
+				"id": "f9cba1fe-1171-4c3b-8822-c01ff7a11672",
+				"method": "GET"
+			},
+			{
+				"id": "7f984cf4-bb24-4da6-820f-0dadca2951fc",
+				"method": "POST"
+			}
+		]
+	}
+}
